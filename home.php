@@ -29,7 +29,7 @@
    <div class="content">
       <h3>new collections</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime reiciendis, modi placeat sit cumque molestiae.</p>
-      <a href="about.php" class="btn">discover more</a>
+      <a href="#about" class="btn">discover more</a>
    </div>
 
 </section>
@@ -41,10 +41,10 @@
    <div class="box-container">
 
      
-      <form action="" method="POST" class="box">
+     <!--  <form action="" class="box">
          
          <div class="price">-</div>
-         <img src="uploaded_img" alt="" class="image">
+         <img src="" alt="" class="image">
          <div class="name"></div>
          <input type="number" name="product_quantity" value="1" min="0" class="qty">
          <input type="hidden" name="product_id" value="">
@@ -53,7 +53,7 @@
          <input type="hidden" name="product_image" value="">
          <input type="submit" value="add to wishlist" name="add_to_wishlist" class="option-btn">
          <input type="submit" value="add to cart" name="add_to_cart" class="btn">
-      </form>
+      </form> -->
      
 
    </div>
@@ -76,7 +76,7 @@
 
 <?php @include 'footer.php'; ?>
 
-<script src="js/script.js"></script>
+<!-- <script src="js/script.js"></script> -->
 
 </body>
 </html>
