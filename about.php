@@ -3,6 +3,7 @@
 
 @include 'config.php';
 
+
 session_start();
 
 ?>
@@ -19,7 +20,7 @@ session_start();
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom admin css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style1.css">
 
 </head>
 <body>
@@ -70,7 +71,7 @@ session_start();
         <div class="content">
             <h3>who we are?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit voluptatum alias sed est in magni nihil nisi deleniti nostrum.</p>
-            <a href="#reviews" class="btn">clients reviews</a>
+            <a href="reviews.php" class="btn">clients reviews</a>
         </div>
 
     </div>
