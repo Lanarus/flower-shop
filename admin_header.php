@@ -11,8 +11,6 @@ if(isset($message)){
 }
 ?>
 
-
-
 <header class="header">
 
    <div class="flex">
