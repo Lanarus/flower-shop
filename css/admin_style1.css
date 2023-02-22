@@ -257,12 +257,56 @@ section{
    font-size: 2rem;
 }
 
+.add-products form{
+   max-width: 50rem;
+   border-radius: .5rem;
+   background-color: var(--white);
+   border:var(--border);
+   padding:2rem;
+   text-align: center;
+   margin:0 auto;
+   box-shadow: var(--box-shadow);
+}
 
+.add-products form h3{
+   font-size: 2.5rem;
+   text-transform: uppercase;
+   color:var(--black);
+   margin-bottom: 1rem;
+}
+.add-products form .box{
+   width: 100%;
+   margin:1rem 0;
+   font-size: 1.8rem;
+   color:var(--black);
+   border-radius: .5rem;
+   background-color: var(--light-bg);
+   padding:1.2rem 1.4rem;
+   border:var(--border);
+}
+.add-products form textarea{
+   height: 15rem;
+   resize: none;
+}
 
-
-
-
-
+.show-products .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 30rem);
+   gap:1.5rem;
+   align-items: flex-start;
+   max-width: 1200px;
+   margin: 0 auto;
+   justify-content: center;
+}
+.show-products .box-container .box{
+   text-align: center;
+   padding:2rem;
+   border:var(--border);
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   border-radius: .5rem;
+   position: relative;
+}
 
 
 
