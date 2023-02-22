@@ -105,6 +105,18 @@ section{
    transform: rotate(90deg);
 }
 
+.empty{
+   padding:1.5rem;
+   font-size: 2rem;
+   color:var(--red);
+   border:var(--border);
+   box-shadow: var(--box-shadow);
+   text-align: center;
+   background-color: var(--white);
+   border-radius: .5rem;
+   text-transform: capitalize;
+}
+
 .btn{
    background-color: var(--pink);
 }
@@ -298,6 +310,7 @@ section{
    margin: 0 auto;
    justify-content: center;
 }
+
 .show-products .box-container .box{
    text-align: center;
    padding:2rem;
@@ -307,6 +320,41 @@ section{
    border-radius: .5rem;
    position: relative;
 }
+
+.show-products .box-container .box .image{
+   height: 30rem;
+   margin-bottom: .5rem;
+}
+
+.show-products .box-container .box .price{
+   background-color: var(--pink);
+   position: absolute;
+   top:1rem; left:1rem;
+   border-radius: .5rem;
+   color:var(--white);
+   padding:1rem;
+   font-size: 2rem;
+}
+
+.show-products .box-container .box .name{
+   margin:1rem 0;
+   font-size: 2rem;
+   color:var(--black);
+}
+
+.show-products .box-container .box .details{
+   line-height: 1.5;
+   color:var(--light-color);
+   font-size: 1.5rem;
+   padding:.5rem 0;
+}
+
+
+
+
+
+
+
 
 
 
