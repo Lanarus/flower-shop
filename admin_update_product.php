@@ -93,3 +93,8 @@ if(isset($_POST['update_product'])){
 ?>
 
 </section>
+
+<script src="js/admin_script.js"></script>
+
+</body>
+</html>
