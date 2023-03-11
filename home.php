@@ -83,7 +83,7 @@ session_start();
    <div class="content">
       <h3>have any questions?</h3>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia aliquam quis saepe? Quia, libero.</p>
-      <a href="#contact" class="btn">contact us</a>
+      <a href="contact.php" class="btn">contact us</a>
    </div>
 
 </section>
