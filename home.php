@@ -128,7 +128,7 @@ if(isset($_POST['add_to_cart'])){
 </div>
 
    <div class="more-btn">
-      <a href="#shop" class="option-btn">load more</a>
+      <a href="shop.php" class="option-btn">load more</a>
    </div>
 
 </section>
