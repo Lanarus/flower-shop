@@ -14,11 +14,11 @@
                 <li><a href="#">pages +</a>
                     <ul>
                         <li><a href="about.php">about</a></li>
-                        <li><a href="#contact">contact</a></li>
+                        <li><a href="contact.php">contact</a></li>
                     </ul>
                 </li>
-                <li><a href="#shop">shop</a></li>
-                <li><a href="#orders">orders</a></li>
+                <li><a href="shop.php">shop</a></li>
+                <li><a href="orders.php">orders</a></li>
                 <li><a href="#">account +</a>
                     <ul>
                         <li><a href="login.php">login</a></li>
