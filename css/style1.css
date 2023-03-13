@@ -672,6 +672,44 @@ html{
 
 
 
+
+
+
+
+.placed-orders .box-container{
+   max-width: 1200px;
+   margin:0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   gap:1.5rem;
+   align-items: flex-start;
+}
+
+.placed-orders .box-container .box{
+   background-color: var(--white);
+   padding:1rem 2rem;
+   border:var(--border);
+   box-shadow: var(--box-shadow);
+   flex:1 1 40rem;
+   border-radius: .5rem;
+}
+
+.placed-orders .box-container .box p{
+   margin: 1rem 0;
+   font-size: 2rem;
+   line-height: 1.5;
+   color:var(--light-color);
+}
+
+.placed-orders .box-container .box p span{
+   color:var(--pink);
+}
+
+
+
+
+
+
  .footer{
     background-color: var(--white);
  }
