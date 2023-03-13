@@ -903,7 +903,53 @@ html{
    color:var(--red);
 }
 
+.checkout form{
+   background-color: var(--white);
+   border:var(--border);
+   max-width: 1200px;
+   margin:0 auto;
+   border-radius: .5rem;
+   padding:2rem;
+   box-shadow: var(--border);
+}
 
+.checkout form h3{
+   padding:1.5rem;
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+   background-color: var(--black);
+   color:var(--white);
+   border-radius: .5rem;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+.checkout form .flex{
+   display: flex;
+   flex-wrap: wrap;
+   gap:1.5rem;
+}
+
+.checkout form .flex .inputBox{
+   flex:1 1 40rem;
+}
+
+.checkout form .flex .inputBox input,
+.checkout form .flex .inputBox select{
+   margin:1rem 0;
+   width: 100%;
+   background-color: var(--light-bg);
+   padding:1.2rem 1.4rem;
+   border:var(--border);
+   font-size: 1.8rem;
+   color:var(--black);
+   border-radius: .5rem;
+}
+
+.checkout form .flex .inputBox span{
+   font-size: 2rem;
+   color:var(--light-color);
+}
 
 
 
